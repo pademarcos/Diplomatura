@@ -1,0 +1,104 @@
+.header{
+    padding: 20px;
+    background-color: lightskyblue;
+}
+
+
+
+
+/* */
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+    background-color: lightblue;
+}
+.imgindex{
+    
+}
+
+
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    background-color: lightseagreen;
+    
+    
+}
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.icofooter{
+    padding-top: 10px;
+    width: 6%;
+}
+.textfooter{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 80%;
+}
+/*nosotros*/
+h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.mainnosotros{
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: px;
+    
+}
+.card{
+    margin: 40px;
+}
+/*Contacto*/
+.contacto{
+    padding: 30px;
+    row-gap: 20px;
+    gap: 40px;
+    display: flex;
+
+}
+.inputs{
+    width: 50%;
+}
+.contactotext{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.contactotext p{
+        padding: 20px;
+        text-align: center;
+
+    }
+
+.imgContacto{
+    width: 80%;
+    
+}
+.btnEnviar{
+    margin-top: 20px;
+}
+/* Productos */
+
+.productos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
